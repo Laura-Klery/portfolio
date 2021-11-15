@@ -4,7 +4,7 @@
     <h2>Présentation</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis?</p>
     <div class="presentation-image">
-      <img src="" alt="">
+      <img src="public/images/cerveau-humain.jpg" alt="">
     </div>
   </article>
 </section>
@@ -57,7 +57,6 @@
 </section>
 <section class="projets">
   <h2>Projets</h2>
-  <!-- TODO faire un slider des projets -->
   <?php require('views/templates/_slide_projets.php') ?>
   <button>Projets</button>
 </section>
