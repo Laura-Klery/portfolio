@@ -7,10 +7,11 @@
         <ul>
             <li><a href="home">Accueil</a></li>
             <li><a href="about">A Propos</a></li>
-            <li><a href="projets">Projets</a></li>
+            <li><a href="projects">Projets</a></li>
             <li><a href="contact">Contact</a></li>
         </ul>    
     </nav>
     <div class="btn-burger">&equiv;</div>
     <a href="https://www.linkedin.com/in/laura-klerykowski" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="<?= $pageRewrite ?>#top">TOP</a>
 </header>

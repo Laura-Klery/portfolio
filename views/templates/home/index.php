@@ -17,7 +17,7 @@
     <img src="" alt="">
     <img src="" alt="">
   </div>
-  <button class="competences-btn">Compétences</button>
+  <a href="about" class="competences-btn">Compétences</a>
 </section>
 <section class="experiences">
   <h2>Expériences</h2>
@@ -53,10 +53,10 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
     </div>
   </div>
-  <button>Expériences</button>
+  <a href="about">Expériences</a>
 </section>
 <section class="projets">
   <h2>Projets</h2>
-  <?php require('views/templates/_slide_projets.php') ?>
-  <button>Projets</button>
+  <?php require('views/templates/_slide_projects.php') ?>
+  <a href="projects">Projets</a>
 </section>

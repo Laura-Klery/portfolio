@@ -38,6 +38,6 @@
         </label>
     </div>
     <input type="submit" class="btn-cta" value="Envoyer">
-    <input type="submit" class="btn-cta" value="Annuler">
-    <div class="form-error-principal form-error-principal-success">Votre formulaire a été envoyé avec succès.</div>
+    <input type="reset" class="btn-cta" value="Annuler">
+    <!--<div class="form-error-principal form-error-principal-success">Votre formulaire a été envoyé avec succès.</div>-->
 </form>

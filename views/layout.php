@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="public/css/variables.css">
   <link rel="stylesheet" href="public/css/style.css">
 </head>
-<body>
+<body id="top">
   <?php include('views/templates/_header.php'); ?>
   <main>
     <div class="menu-fond"></div>
