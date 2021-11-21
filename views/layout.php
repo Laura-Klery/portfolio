@@ -12,6 +12,7 @@
   <base href="http://localhost/portfolio/">
   <link rel="stylesheet" href="public/css/variables.css">
   <link rel="stylesheet" href="public/css/style.css">
+  <link rel="icon" href="public/images/logo.ico" type="image/x-icon">
 </head>
 <body id="top">
   <?php include('views/templates/_header.php'); ?>

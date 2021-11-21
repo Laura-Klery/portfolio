@@ -1,5 +1,5 @@
 /* Composant Slider */
-var slide = new Array("public/images/avenger.jpg", "public/images/cerveau-humain.jpg", "public/images/couche-soleil.jpg", "public/images/galaxie.jpg");
+var slide = new Array("public/images/ordinateur-vierge.png", "public/images/family-circus.png");
 var numero = 0;
 function ChangeSlide(sens) {
     numero = numero + sens;

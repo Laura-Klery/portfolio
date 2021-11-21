@@ -110,7 +110,7 @@ button.accordion::after {
     font-weight: 900;
     content: '\f067';
     font-size: 14px;
-    float: right;
+    float: left;
 }
 
 button.accordion.is-open::after {
@@ -216,6 +216,20 @@ textarea{
 	color:#FFF;
 	font-weight:400;
 	background-color:#AAA;
+}
+.footer a.scroll{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:#F00;
+	color:#FFF;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	right:20px;
+	top:calc((50px + 20px) * -1);
+	z-index:1;
 }
 
 /* Responsive */

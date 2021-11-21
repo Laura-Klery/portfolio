@@ -2,55 +2,53 @@
 <section class="presentation">
   <article class="presentation-texte">
     <h2>Présentation</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odit, assumenda impedit recusandae laudantium consequatur aspernatur hic molestias voluptate, iusto eos inventore nulla totam tempore porro aliquid quasi labore blanditiis?</p>
+    <p>Bonjour, je m’appelle Laura Klerykowski. Etudiante en deuxième année de Bachelor Développement Web à Digital Campus Bordeaux.</p>
     <div class="presentation-image">
-      <img src="public/images/cerveau-humain.jpg" alt="">
+      <img src="public/images/galaxie.jpg">
     </div>
   </article>
 </section>
 <section class="competences">
   <h2 class="competences-titre">Compétences</h2>
   <div class="competences-logo">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="public/images/html.png" alt="">
+    <img src="public/images/css.png" alt="">
+    <img src="public/images/javascript.png" alt="">
+    <img src="public/images/php.png" alt="">
+    <img src="public/images/vscode.png" alt="">
   </div>
   <a href="about" class="competences-btn">Compétences</a>
 </section>
 <section class="experiences">
   <h2>Expériences</h2>
   <div class="container-accordeon">
-    <button class="accordion">First Accordion</button>
+    <button class="accordion">Avril 2021 – Juin 2021 Stage chez Décographik à Bordeaux</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p>Développeur WordPress / WooCommerce</p>
+      <p>Création d’un e-commerce par le biais de WordPress et WooCommerce en personnalisant le thème Astra et en utilisant le plugin Elementor. </p> 
+      <p>Création des fiches produits avec un tableur Excel pour les différents tarifs.</p>
     </div>
-    <button class="accordion">Second Accordion</button>
+    <button class="accordion">Time to React Edition 2021</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p>Hackathon sur trois jours. Une collègue de l’école LISAA et moi-même étions chef de projet pour un groupe de 6 personnes. Nous devions faire une proposition de site responsive, ainsi que d’une étude de marché, et une liste de prospect. Le tout correspondant au projet et à l’organisation de la journée Time To React 2022 que nous avions imaginés.</p>
     </div>
-    <button class="accordion">Third Accordion</button>
+    <button class="accordion">Octobre 2020 – Mars 2021 Les grands projets Digital Campus</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p>Réalisation d'un projet réel sous la direction de deux chefs de projets. Le projet comprend une refonte du site web, une nouvelle stratégie de communication, une nouvelle charte graphique et éditoriale.</p>
     </div>
   </div>
   <div class="container-accordeon">
-    <button class="accordion">First Accordion</button>
+    <button class="accordion">2020 – 2023 Bachelor Développeur Web</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p>Digital Campus Bordeaux. Actuellement en 2ème Année.</p>
     </div>
-    <button class="accordion">Second Accordion</button>
+    <button class="accordion">Octobre 2019 – Avril 2020 Formation développeur web et web mobile</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p></p>
     </div>
-    <button class="accordion">Third Accordion</button>
+    <button class="accordion">Septembre 2016 – Juin 2018 Diplôme d’Etude Universitaire Générale en Sciences de l’Education</button>
     <div class="accordion-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?</p>
+      <p></p>
     </div>
   </div>
   <a href="about">Expériences</a>
