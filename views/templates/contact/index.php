@@ -33,7 +33,7 @@
     <div class="form-ligne">
         <label for="contact-cgu">
             <input class="js-verif-cgu" id="contact-cgu" type="checkbox" name="cgu">
-            J'accepte <a href="cgu">les mentions légales</a> de ce site.
+            J'accepte les <a href="cgu"><u>mentions légales</u></a> de ce site.
             <span class="form-error form-error-hidden">Case à cocher</span>
         </label>
     </div>

@@ -16,7 +16,7 @@
 </head>
 <body id="top">
   <?php include('views/templates/_header.php'); ?>
-  <main>
+  <main class="conteneur">
     <div class="menu-fond"></div>
     <?php require('views/templates/' . $page); ?>
   </main>

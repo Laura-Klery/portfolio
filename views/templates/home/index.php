@@ -1,8 +1,8 @@
 <h1><?= $title ?></h1>
 <section class="presentation">
+  <h2>Présentation</h2>
   <article class="presentation-texte">
-    <h2>Présentation</h2>
-    <p>Bonjour, je m’appelle Laura Klerykowski. Etudiante en deuxième année de Bachelor Développement Web à Digital Campus Bordeaux.</p>
+    <p>Bonjour, je m’appelle Laura Klerykowski. Etudiante en deuxième année de Bachelor Développement Web à Digital Campus Bordeaux. Anciennement diplômée d’un DEUG en Sciences de l’Education ainsi que d’un bac général série économique et sociale avec spécialisation math. J’ai décidé de changer de voix et de me rapprocher de mes passions qui sont : l’écriture, la musique et le web. Alors, après plusieurs semaines de recherche dans les métiers du web, j’ai découvert le développement web, j’ai suivi plusieurs tuto tout en pratiquant et j’ai vraiment accroché.</p>
     <div class="presentation-image">
       <img src="public/images/galaxie.jpg">
     </div>
@@ -11,13 +11,13 @@
 <section class="competences">
   <h2 class="competences-titre">Compétences</h2>
   <div class="competences-logo">
-    <img src="public/images/html.png" alt="">
-    <img src="public/images/css.png" alt="">
-    <img src="public/images/javascript.png" alt="">
-    <img src="public/images/php.png" alt="">
-    <img src="public/images/vscode.png" alt="">
+    <img src="public/images/html.png">
+    <img src="public/images/css.png">
+    <img src="public/images/javascript.png">
+    <img src="public/images/php.png">
+    <img src="public/images/vscode.png">
   </div>
-  <a href="about" class="competences-btn">Compétences</a>
+  <a href="about" class="btn">Compétences</a>
 </section>
 <section class="experiences">
   <h2>Expériences</h2>
@@ -42,19 +42,19 @@
     <div class="accordion-content">
       <p>Digital Campus Bordeaux. Actuellement en 2ème Année.</p>
     </div>
-    <button class="accordion">Octobre 2019 – Avril 2020 Formation développeur web et web mobile</button>
+    <button class="accordion">Octobre 2019 – Avril 2020 Formation développeur web & mobile</button>
     <div class="accordion-content">
-      <p></p>
+      <p>Cursus sur une année, fait à Digital Campus Rennes.</p>
     </div>
     <button class="accordion">Septembre 2016 – Juin 2018 Diplôme d’Etude Universitaire Générale en Sciences de l’Education</button>
     <div class="accordion-content">
-      <p></p>
+      <p>Après le bac, j'ai </p>
     </div>
   </div>
-  <a href="about">Expériences</a>
+  <a href="about" class="btn">Expériences</a>
 </section>
 <section class="projets">
   <h2>Projets</h2>
   <?php require('views/templates/_slide_projects.php') ?>
-  <a href="projects">Projets</a>
+  <a href="projects" class="btn">Projets</a>
 </section>
