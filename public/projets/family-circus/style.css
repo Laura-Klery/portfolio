@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", curcive, sans-serif;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1542675454-b3fbb8b41c18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80') fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+  }
+  
+  div.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px; 
+  }
+  
+  h1 {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px; 
+    overflow: hidden;
+  }
+  
+  nav, ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    list-style-type: none;  
+    font-size: 1.5em;
+    padding: 0;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    color:white;
+    text-decoration: none;
+  }
+  
+  li a{
+    text-decoration: none;
+    color: inherit;
+    border: thick double;
+    border-radius: 10px;
+    padding: 6px;
+  }
+  
+  li.menu:hover {
+    -webkit-transform: scale(1.1) rotate(10deg);
+    -ms-transform: scale(1.1) rotate(10deg);
+    transform: scale(1.1) rotate(10deg);
+    color: rgb(239, 216, 7);
+    border-color: rgb(239, 216, 7);
+  }
+  
+  h2{
+    display: inline;
+    font-family: 'Bree Serif', sans-serif;
+    font-size:4em;
+    padding: 0;
+    margin: 0;
+    color: rgb(239, 216, 7);
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  }
+  
+  li h3, li img, #performances{
+    font-size: 1.9em;
+  }
+  
+  li.border{
+    border: thick solid rgba(219,112,147,0.35);
+    border-radius: 10px;
+    margin-left: 4px;
+    background-color: rgba(219, 112, 147, 0.35);
+    width: 33%;
+    min-width: 260px;
+  }
+  
+  p, table{
+    font-family: 'Domine', sans-serif;
+  }
+  
+  p{
+    font-size: 0.9em;
+    line-height: 50px;
+  }
+  
+  #face_of_clown{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  
+  #magician{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  
+  #picture_of_feline{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  
+  li p{
+    display: flex;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 1em;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  #About_us{
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 10%;
+    background-color: rgba(219, 112, 147, 0.35);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #About_us p{
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .board{
+    border-collapse: collapse; 
+    margin: auto;  
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  
+  .board td, th{
+    background-color: rgb(222, 49, 99);
+  }
+  
+  thead th:nth-child(1){
+    border-top: none;
+    border-left: none; 
+    background: none;
+  }
+  
+  th, td{ 
+    border: 2px solid black; 
+    border-collapse: collapse;
+    padding: 10px 35px;
+    text-align: center;
+  }
+  
+  .info_price{  
+    font-weight: bold;
+  }
+  
+  .board form{ 
+    padding:10px;
+  }
+  
+  #Contact fieldset{
+    margin-top: 80px;
+  }
+  
+  .contact_table{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .contact_table td:nth-child(1){
+    width: 200px;
+    text-align: right;
+  }
+  
+  .contact_table input, .contact_table select, .contact_table textarea{
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .contact_table td{
+    padding: 8px;
+    border: none;
+  }
+  
+  #submit{
+    text-align: center;
+  }
+  
+  #submit_button{
+    width: auto;
+    padding: 8px 25px;
+    border-radius: 3px;
+  }
+  
+  footer{
+    font-size:1em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0.5%;
+    margin-top: 30px;
+    background-color: rgb(219, 112, 147);
+  }
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer a{
+    color: rgb(239, 216, 7);
+  }

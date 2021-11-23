@@ -39,7 +39,6 @@ burger_html('.btn-burger');
 const accordionBtns = document.querySelectorAll('.accordion');
 accordionBtns.forEach((accordion) => {
   accordion.onclick = function () {
-
     this.classList.toggle('is-open');
     let content = this.nextElementSibling;
     if (content.style.maxHeight) {
@@ -188,5 +187,3 @@ function verif_form(form_selecteur,param_insert){
 	});
 }
 verif_form('.js-form-verif',{default_data_max:100,});
-
-/* Filtre */

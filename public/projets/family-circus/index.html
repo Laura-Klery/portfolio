@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet">
+    <title>Family circus</title>
+</head>
+
+<body>
+    <header>
+        <h1>Family Circus</h1>
+        <div class="picture_of_circus">
+            <img src="https://i.imgur.com/r93djTt.png" alt="logo-wild-circus">
+        </div>
+
+        <nav>
+            <ul>
+               <li class="menu"><a href="#Performances">Perfomances</a></li> 
+               <li class="menu"><a href="#About_us">About Us</a></li>
+               <li class="menu"><a href="#Prices"> Prices</a></li>
+               <li class="menu"><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="Performances">
+            <h2>Performances</h2>
+ <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+            <ul>
+                <!--performances 1-->
+                <li class="border">
+                    <h3>Laught</h3>
+                    <img src="https://cdn.pixabay.com/photo/2015/03/17/16/59/clown-678042__340.jpg" alt="face_of_clown" id="face_of_clown">
+                    <p> As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+                </li>
+                <!--performance 2-->
+                <li class="border">
+                    <h3>Dream</h3>
+                    <img src="http://www.thameshudson.fr/wp-content/uploads/2015/11/MAGIE.jpg" alt="magician" id="magician">
+                    <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+                </li>
+                <!--performances 3-->
+                <li class="border">
+                    <h3>Marvel at</h3>
+                    <img src="https://ds1.static.rtbf.be/article/image/370x208/6/b/d/60d19f90fc1fb03380c61c04ed45d7d0-1515604077.jpg" alt="picture_of_feline" id="picture_of_feline">
+                    <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="About_us">
+            <h2>About Us</h2>
+            <p>
+                Welcome to the official site, if you have arrived here it is that you want to see a show of quality without ruining yourself. Our circus is for you! Our to propose magics tricks where reality and imagination become one. Our magicians propose for you a word without limit. Our clowns meanwhile will entertain you whith their jokes and skits to which they will make you participate. We are increasingly confronted with a fact that peaple are afraid of clowns, that why ours don't have a costume but just make-up. Our tamers and our animals will make you shudder; you will see big wild felines to turn into nice little cats; all without whip. As for our comedians what to say... they are wonderful, they do everthing to push their limits and the laws of physics to offer you a grandiose spectacle worthy of the greatest stuntmen of Hollywood, our bikers are not outdone in their big cage you can see them start in two and as and when increase their number up to six!
+            </p>
+            <p>
+                Our Circus is also renowned for its commitment to animal welfare and the cause of children that's why we are committed to donating a quater of our revenue to child protection associations as well as animal protection assocaitions. We also had a park with several large enclosures so that our animals can let off steam when we are not on tour but don't worry when we are on the road the cages are big enough for them to be at ease.
+            </p>
+            <p>
+                Finally, if you seek a good dose of adrenaline don't hesitate and comme to see us during our performances.
+            </p>
+            <p>
+                PS: Be careful! All our tours are done by professionals, don't try to remake them at home, you could hurt yourself.
+            </p>
+        </section>
+
+        <section id="Prices">
+            <h2>Prices</h2>
+            <table class="board">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Adult</th>
+                        <th>Children less than 12 years</th>
+                        <th>Group more than 10 people</th>
+                        <th>Schools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Weekdays expect Wednesday</th>
+                        <td>8$</td>
+                        <td>5$</td>
+                        <td>15$</td>
+                        <td>10$</td>
+                    </tr>
+                    <tr>
+                        <th>Week-end and Wednesday</th>
+                        <td>10$</td>
+                        <td>7$</td>
+                        <td>17$</td>
+                        <td>12$</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" class="info_price">For more information please contact us</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact Us</h2>
+            <fieldset>
+                <form method="post" action="traitement.php">
+                    <table class="contact_table">
+                        <tbody>
+                            <tr>
+                                <td><label for="firstname">First Name :</label></td>
+                                <td><input type="text" name="firstname" id="firstname" placeholder="First Name"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Surname">Surname :</label></td>
+                                <td><input type="text" name="Surname" id="Surname" placeholder="Surname"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="you_are">You are :</label></td>
+                                <td><select name="you_are" id="you_are">
+                                    <option value="select">Select</option>
+                                    <option value="particular">A particular</option>
+                                    <option value="group">A group</option>
+                                    <option value="association">An association</option>
+                                    <option value="school">A school</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="country"> Country :</label></td>
+                                <td><input type="text" name="country" id="country" placeholder="Country"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Your email :</label></td>
+                                <td><input type="email" name="email" id="email" placeholder="contact@demo.fr" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="messagetext">Your message :</label></td>
+                                <td><textarea name="message" id="messagetext" cols="20" rows="10" placeholder="Your message"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" id="submit"><input type="submit" value="Send" id="submit_button"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </fieldset>
+        </section>
+    </div>
+    <footer>
+        <p>Family Circus by <a href="https://fr.linkedin.com/in/laura-klerykowski-66644a156" target="_blank">Laura Klerykowski</a> - Juin 2019</p>
+    </footer>
+</body>
+</html>

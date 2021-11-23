@@ -33,7 +33,7 @@
     <div class="form-ligne">
         <label for="contact-cgu">
             <input class="js-verif-cgu" id="contact-cgu" type="checkbox" name="cgu">
-            J'accepte les <a href="cgu"><u>mentions légales</u></a> de ce site.
+            En soumettant ce formulaire, j’accepte que les informations saisies soient envoyées au propriétaire du site sans que ces dernières ne soient stockées en base de données. Voir les <a href="cgu"><u>mentions légales</u></a> du site pour plus d'information.
             <span class="form-error form-error-hidden">Case à cocher</span>
         </label>
     </div>

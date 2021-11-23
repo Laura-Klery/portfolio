@@ -9,7 +9,7 @@
   </article>
 </section>
 <section class="competences">
-  <h2 class="competences-titre">Compétences</h2>
+  <h2 class="competences-titre">Quelques unes de mes compétences</h2>
   <div class="competences-logo">
     <img src="public/images/html.png">
     <img src="public/images/css.png">
@@ -20,35 +20,35 @@
   <a href="about" class="btn">Compétences</a>
 </section>
 <section class="experiences">
-  <h2>Expériences</h2>
-  <div class="container-accordeon">
-    <button class="accordion">Avril 2021 – Juin 2021 Stage chez Décographik à Bordeaux</button>
-    <div class="accordion-content">
-      <p>Développeur WordPress / WooCommerce</p>
-      <p>Création d’un e-commerce par le biais de WordPress et WooCommerce en personnalisant le thème Astra et en utilisant le plugin Elementor. </p> 
-      <p>Création des fiches produits avec un tableur Excel pour les différents tarifs.</p>
+  <h2>Quelques unes de mes expériences</h2>
+  <div class="flex">
+    <div class="container-accordeon">
+      <button class="accordion">Avril 2021 – Juin 2021 Stage chez Décographik à Bordeaux</button>
+      <div class="accordion-content">
+        <p>Développeur WordPress / WooCommerce Création d’un e-commerce par le biais de WordPress et WooCommerce en personnalisant le thème Astra et en utilisant le plugin Elementor. Création des fiches produits avec un tableur Excel pour les différents tarifs.</p>
+      </div>
+      <button class="accordion">Time to React Edition 2021</button>
+      <div class="accordion-content">
+        <p>Hackathon sur trois jours. Une collègue de l’école LISAA et moi-même étions chef de projet pour un groupe de 6 personnes. Nous devions faire une proposition de site responsive, ainsi que d’une étude de marché, et une liste de prospect. Le tout correspondant au projet et à l’organisation de la journée Time To React 2022 que nous avions imaginés.</p>
+      </div>
+      <button class="accordion">Octobre 2020 – Mars 2021 Les grands projets Digital Campus</button>
+      <div class="accordion-content">
+        <p>Réalisation d'un projet réel sous la direction de deux chefs de projets. Le projet comprend une refonte du site web, une nouvelle stratégie de communication, une nouvelle charte graphique et éditoriale.</p>
+      </div>
     </div>
-    <button class="accordion">Time to React Edition 2021</button>
-    <div class="accordion-content">
-      <p>Hackathon sur trois jours. Une collègue de l’école LISAA et moi-même étions chef de projet pour un groupe de 6 personnes. Nous devions faire une proposition de site responsive, ainsi que d’une étude de marché, et une liste de prospect. Le tout correspondant au projet et à l’organisation de la journée Time To React 2022 que nous avions imaginés.</p>
-    </div>
-    <button class="accordion">Octobre 2020 – Mars 2021 Les grands projets Digital Campus</button>
-    <div class="accordion-content">
-      <p>Réalisation d'un projet réel sous la direction de deux chefs de projets. Le projet comprend une refonte du site web, une nouvelle stratégie de communication, une nouvelle charte graphique et éditoriale.</p>
-    </div>
-  </div>
-  <div class="container-accordeon">
-    <button class="accordion">2020 – 2023 Bachelor Développeur Web</button>
-    <div class="accordion-content">
-      <p>Digital Campus Bordeaux. Actuellement en 2ème Année.</p>
-    </div>
-    <button class="accordion">Octobre 2019 – Avril 2020 Formation développeur web & mobile</button>
-    <div class="accordion-content">
-      <p>Cursus sur une année, fait à Digital Campus Rennes.</p>
-    </div>
-    <button class="accordion">Septembre 2016 – Juin 2018 Diplôme d’Etude Universitaire Générale en Sciences de l’Education</button>
-    <div class="accordion-content">
-      <p>Après le bac, j'ai </p>
+    <div class="container-accordeon">
+      <button class="accordion">2020 – 2023 Bachelor Développeur Web</button>
+      <div class="accordion-content">
+        <p>Digital Campus Bordeaux. Actuellement en 2ème Année.</p>
+      </div>
+      <button class="accordion">Octobre 2019 – Avril 2020 Formation développeur web & mobile</button>
+      <div class="accordion-content">
+        <p>Cursus sur une année, fait à Digital Campus Rennes.</p>
+      </div>
+      <button class="accordion">Septembre 2016 – Juin 2018 Diplôme d’Etude Universitaire Générale en Sciences de l’Education</button>
+      <div class="accordion-content">
+        <p>Après le bac, je souhaitais devenir professeur des écoles, finalement ce n'était pas ma voix.</p>
+      </div>
     </div>
   </div>
   <a href="about" class="btn">Expériences</a>
