@@ -1,39 +1,66 @@
 <h1><?= $title ?></h1>
-<div>
-  <!-- TODO : faire un scroll entre compétences et expériences -->
-  <a href="<?= $pageRewrite ?>#competences">Compétences</a>
-  <a href="<?= $pageRewrite ?>#experiences">Expériences</a>
-</div>
-<section>
-  <h2 id="competences">Compétences</h2>
-  <!-- TODO : faire un filtre "Toutes", "Back-End", "Front-End", "UI/UX Design", "Outils" -->
-  <!-- les filtres -->
-  <div class="filtres">
-    <ul>
-      <li class="filter active" data-filter="all">Toutes</li>
-      <li class="filter" data-filter="back-end">Back-End</li>
-      <li class="filter" data-filter="front-end">Front-End</li>
-      <li class="filter" data-filter="ui-ux-design">UI/UX Design</li>
-      <li class="filter" data-filter="outils">Outils</li>
-    </ul>
+<section class="a-propos">
+  <div class="switch-comp-exp">
+    <!-- TODO : faire un scroll entre compétences et expériences -->
+    <a href="<?= $pageRewrite ?>#competences">Compétences</a>
+    <a href="<?= $pageRewrite ?>#experiences">Expériences</a>
   </div>
-  <!-- les éléments a affiché -->
-  <div class="elements">
-    <div class="outils"></div>
-    <div class="back-end"></div>
-    <div class="outils"></div>
-    <div class="ui-ux-design"></div>
-    <div class="back-end"></div>
-    <div class="front-end"></div>
-    <div class="texte"></div>
-    <div class="texte"></div>
-  </div>
-</section>
-<section>
-  <div>
-    <h2 id="experiences">Expériences</h2>
-    <!-- TODO : Faire un bouton avec une icône pour télécharger le cv -->
-    <a href="public/fichier/cv.pdf" download="laura-klerykowski-cv"><i class="fas fa-download"></i> Télécharger mon CV</a>
-  </div>
-  <!-- TODO : Faire un gauche droite étiquette par expérience -->
+  <section class="competence">
+    <h2 id="competences">Compétences</h2>
+    <!-- TODO : faire un filtre "Toutes", "Back-End", "Front-End", "UI/UX Design", "Outils" -->
+    <!-- les filtres -->
+    <div class="filtres">
+      <ul>
+        <li class="filter active" data-filter="all">Toutes</li>
+        <li class="filter" data-filter="back-end">Back-End</li>
+        <li class="filter" data-filter="front-end">Front-End</li>
+        <li class="filter" data-filter="ui-ux-design">UI/UX Design</li>
+        <li class="filter" data-filter="outils">Outils</li>
+      </ul>
+    </div>
+    <!-- les éléments a affiché -->
+    <div class="elements">
+      <div class="back-end">
+        <img src="public/images/php.png">
+      </div>
+      <div class="back-end">
+        <img src="public/images/mysql.png">
+      </div>
+      <div class="back-end">
+        <img src="public/images/symfony.png">
+      </div>
+      <div class="back-end">
+        <img src="public/images/wordpress.png">
+      </div>
+      <div class="front-end">
+        <img src="public/images/html.png">
+      </div>
+      <div class="front-end">
+        <img src="public/images/css.png">
+      </div>
+      <div class="front-end">
+        <img src="public/images/bootstrap.png">
+      </div>
+      <div class="front-end">
+        <img src="public/images/javascript.png">
+      </div>
+      <div class="outils">
+        <img src="public/images/vscode.png">
+      </div>
+      <div class="outils">
+        <img src="public/images/github.png">
+      </div>
+      <div class="ui-ux-design outils">
+        <img src="public/images/adobe.png">
+      </div>
+    </div>
+  </section>
+  <section class="experience">
+    <div class="experience-ligne">
+      <h2 id="experiences">Expériences</h2>
+      <!-- TODO : Faire un bouton avec une icône pour télécharger le cv -->
+      <a href="public/fichier/cv.pdf" download="laura-klerykowski-cv"><i class="fas fa-download"></i> Télécharger mon CV</a>
+    </div>
+    <!-- TODO : Faire un gauche droite étiquette par expérience -->
+  </section>
 </section>

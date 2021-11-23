@@ -9,7 +9,7 @@
   </article>
 </section>
 <section class="competences">
-  <h2 class="competences-titre">Quelques unes de mes compétences</h2>
+  <h2>Quelques unes de mes compétences</h2>
   <div class="competences-logo">
     <img src="public/images/html.png">
     <img src="public/images/css.png">
@@ -21,7 +21,7 @@
 </section>
 <section class="experiences">
   <h2>Quelques unes de mes expériences</h2>
-  <div class="flex">
+  <div class="experiences-flex">
     <div class="container-accordeon">
       <button class="accordion">Avril 2021 – Juin 2021 Stage chez Décographik à Bordeaux</button>
       <div class="accordion-content">
@@ -53,7 +53,7 @@
   </div>
   <a href="about" class="btn">Expériences</a>
 </section>
-<section class="projets">
+<section class="projet">
   <h2>Projets</h2>
   <?php require('views/templates/_slide_projects.php') ?>
   <a href="projects" class="btn">Projets</a>

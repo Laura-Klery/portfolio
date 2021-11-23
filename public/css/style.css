@@ -26,6 +26,11 @@ h1, h2{
 h2{
 	font-size:40px;
 }
+li{
+	list-style-type:none;
+	font-family:var(--text);
+	font-size:20px;
+}
 
 /* Header */
 .header{
@@ -96,11 +101,11 @@ h2{
 
 /* Page Accueil */
 /* Section Présentation */
-.presentation, .competences, .experiences, .projets{
+.presentation, .competences, .experiences, .projet{
 	max-width:80%;
 	margin:30px 10%;
-	border: 2px solid var(--light);
-	border-radius: 40px;
+	border:2px solid var(--light);
+	border-radius:40px;
 	padding-bottom:25px;
 }
 .presentation-texte{
@@ -126,7 +131,7 @@ h2{
 	max-width:500px;
 }
 
-/* Composant btn */
+/* Section Compétences, Expériences, Projets : Composant btn */
 section .btn, .btn-cta{
 	background-color:var(--btnColor);
 	color:var(--light);
@@ -147,8 +152,8 @@ section .btn{
 	justify-content:space-around;
 }
 
-/* Section Expériences / Composant accordeon */
-.flex{
+/* Section Expériences : Composant accordeon */
+.experiences-flex{
 	display:flex;
 	justify-content: space-around;
 	align-items:center;
@@ -196,7 +201,7 @@ button.accordion.is-open {
     transition:max-height 0.2s ease-in-out;
 }
 
-/* Section Projet / Composant Slider */
+/* Section Projets : Composant Slider */
 .projets h2 {
 	padding-top: 20px;
 }
@@ -227,12 +232,47 @@ button.accordion.is-open {
 #slider:hover #suivant {
     opacity:1.5;
 }
-.projets .btn{
+.projet .btn{
 	margin:580px;
 }
+
 /* Page A propos */
+.a-propos{
+	max-width:80%;
+	margin:30px 10%;
+}
+.switch-comp-exp{
+
+}
+.competence{
+
+}
+.filtres{
+
+}
+.elements{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.elements img{
+	width:100%;
+}
+.experience-ligne{
+	
+}
 
 /* Page Projets */
+.projets-slider{
+
+}
+.projets{
+
+}
+.filtres-projet{
+
+}
 
 /* Page Contact */
 .form-contact{
@@ -284,6 +324,7 @@ input[type="reset"]{margin-left: 440px;}
 	font-family: var(--text);
 	font-size: 20px;
 }
+
 /* Footer */
 .footer{
 	padding:20px 0 20px 150px;
