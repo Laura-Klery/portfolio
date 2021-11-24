@@ -22,35 +22,19 @@
     <div class="elements">
       <div class="back-end">
         <img src="public/images/php.png">
-      </div>
-      <div class="back-end">
         <img src="public/images/mysql.png">
-      </div>
-      <div class="back-end">
         <img src="public/images/symfony.png">
-      </div>
-      <div class="back-end">
         <img src="public/images/wordpress.png">
       </div>
       <div class="front-end">
         <img src="public/images/html.png">
-      </div>
-      <div class="front-end">
         <img src="public/images/css.png">
-      </div>
-      <div class="front-end">
         <img src="public/images/bootstrap.png">
-      </div>
-      <div class="front-end">
         <img src="public/images/javascript.png">
       </div>
       <div class="outils">
         <img src="public/images/vscode.png">
-      </div>
-      <div class="outils">
         <img src="public/images/github.png">
-      </div>
-      <div class="ui-ux-design outils">
         <img src="public/images/adobe.png">
       </div>
     </div>
@@ -59,7 +43,7 @@
     <div class="experience-ligne">
       <h2 id="experiences">Expériences</h2>
       <!-- TODO : Faire un bouton avec une icône pour télécharger le cv -->
-      <a href="public/fichier/cv.pdf" download="laura-klerykowski-cv"><i class="fas fa-download"></i> Télécharger mon CV</a>
+      <div><a href="public/fichier/cv.pdf" download="laura-klerykowski-cv"><i class="fas fa-download"></i> Télécharger mon CV</a></div>
     </div>
     <!-- TODO : Faire un gauche droite étiquette par expérience -->
   </section>

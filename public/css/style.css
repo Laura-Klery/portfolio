@@ -101,10 +101,10 @@ li{
 
 /* Page Accueil */
 /* Section Présentation */
-.presentation, .competences, .experiences, .projet{
+.presentation, .competences, .experiences, .projet, .competence{
 	max-width:80%;
 	margin:30px 10%;
-	border:2px solid var(--light);
+	border:2px solid rgba(255, 255, 255, .25);
 	border-radius:40px;
 	padding-bottom:25px;
 }
@@ -132,7 +132,7 @@ li{
 }
 
 /* Section Compétences, Expériences, Projets : Composant btn */
-section .btn, .btn-cta{
+section .btn, .btn-cta, .experience-ligne a{
 	background-color:var(--btnColor);
 	color:var(--light);
 	font-family:var(--text);
@@ -238,29 +238,39 @@ button.accordion.is-open {
 
 /* Page A propos */
 .a-propos{
-	max-width:80%;
+	max-width:90%;
 	margin:30px 10%;
 }
-.switch-comp-exp{
-
-}
 .competence{
-
+	max-width:100%;
+}
+.switch-comp-exp{
+	text-align: center;
+    font-family: var(--text);
+    font-size: 20px;
+}
+.switch-comp-exp a{
+	margin-right:30px;
 }
 .filtres{
-
-}
-.elements{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	flex-wrap:wrap;
+	font-family:var(--text);
+	font-size:20px;
 }
 .elements img{
-	width:100%;
+	width:80%;
+	margin:8px;
+}
+.back-end, .front-end, .outils{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:10px;
+	margin:20px 0;
 }
 .experience-ligne{
-	
+	display:flex;
+	justify-content:space-between;
+	align-items:stretch;
 }
 
 /* Page Projets */
@@ -320,9 +330,21 @@ input .btn-cta{
 input[type="reset"]{margin-left: 440px;}
 
 /* Mentions Légales */
+.mention{
+	max-width:80%;
+	display:flex;
+	justify-content:center;
+	align-items:flex-start;
+	flex-direction:column;
+	margin:10px 10%;
+}
 .mention h2{
 	font-family: var(--text);
 	font-size: 20px;
+	padding-left:0;
+}
+.mention p{
+	text-align:justify;
 }
 
 /* Footer */
