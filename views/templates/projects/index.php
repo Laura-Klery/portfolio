@@ -19,9 +19,7 @@
     <!-- les éléments a affiché -->
     <div class="elements-projets">
         <div class="html css" data-category="html css">
-            <a href="public/projets/family-circus/index.html">
-                <img src="public/images/family-circus.png">
-            </a>
+            <img src="public/images/family-circus.png">
         </div>
     </div>
 </section>
