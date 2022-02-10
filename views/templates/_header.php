@@ -1,6 +1,6 @@
 <header class="header">
     <div class="header-conteneur conteneur">
-        <a class="header-logo" href="home"><img src="public/images/logo.png" alt="Mon Logo"></a>
+        <a class="header-logo" href="home"><img src="public/images/logo.svg" alt="Mon Logo"></a>
         <span>Développeuse web & mobile</span>
         <nav class="main-menu">
             <ul>
