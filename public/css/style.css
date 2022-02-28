@@ -1,139 +1,174 @@
 /* Generale */
-*{
-    box-sizing:border-box;
+* {
+	box-sizing: border-box;
 }
-body{
-    margin:0;
-	background-color:var(--mainColor);
+
+body {
+	margin: 0;
+	background-color: var(--mainColor);
 }
-a{
-	text-decoration:none;
-	color:var(--dark);
+
+a {
+	text-decoration: none;
+	color: var(--dark);
 }
-.conteneur{
-	margin:0 auto;
-	padding:0 8px;
-	max-width:1440px;
-	min-width:320px;
+
+.conteneur {
+	margin: 0 auto;
+	padding: 0 8px;
+	max-width: 1440px;
+	min-width: 320px;
 }
-h1, h2{
-	font-family:var(--title);
-	font-size:50px;
-	font-weight:400;
-	padding-left:20px;
-	margin-top:5px;
+
+h1,
+h2 {
+	font-family: var(--title);
+	font-size: 50px;
+	font-weight: 400;
+	padding-left: 20px;
+	margin-top: 5px;
 }
-h2{
-	font-size:40px;
+
+h2 {
+	font-size: 40px;
 }
-li{
-	list-style-type:none;
-	font-family:var(--text);
-	font-size:20px;
+
+li {
+	list-style-type: none;
+	font-family: var(--text);
+	font-size: 20px;
 }
 
 /* Header */
-.header{
-	background-color:var(--mainColorHF);
-	position:relative;
-	z-index:11;
+.header {
+	background-color: var(--mainColorHF);
+	position: relative;
+	z-index: 11;
 }
-.header-conteneur, ul{
-	display:flex;
-	flex:1;
-	justify-content:space-around;
-	align-items:center;
+
+.header-conteneur {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5px 0 0;
 }
-.header span{
-	font-family:var(--title);
-	font-size:16px;
+
+.header span {
+	font-family: var(--title);
+	font-size: 20px;
 }
-.header-logo{
-	display:block;
-	width:50px;
+
+.header-logo {
+	display: block;
+	width: 50px;
+	margin: 0 auto;
 }
-.header-logo img{
-	width:100%;
-	height:auto;
-	display:block;
+
+.header-logo img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
-.btn-burger{
-	width:48px;
-	height:48px;
-	font-size:40px;
-	color:var(--dark);
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	cursor:pointer;
+
+.btn-burger {
+	width: 44px;
+	height: 44px;
+	font-size: 40px;
+	color: var(--dark);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
 }
-.menu-fond{
-	position:fixed;
-	top:0;
-	left:-100%;
-	width:100%;
-	height:100%;
-	z-index:10;
-	background-color:rgba(0,0,0,.75);
+
+.menu-fond {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: var(--mainColor);
 }
-.main-menu{
-	position:absolute;
-	top:100%;
-	left:-100%;
-	z-index:1;
-	width:100%;
+
+.main-menu {
+	position: absolute;
+	top: 100%;
+	left: -100%;
+	z-index: 1;
+	width: 100%;
 }
-.main-menu ul{
-	padding:0;
-	margin:0;
-	list-style:none;
+
+.main-menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
-.main-menu a{
-	width:100%;
-	display:block;
-	padding:20px 10px;
-	text-align:center;
-	text-decoration:none;
-	color:var(--dark);
-	font-size:20px;
-	line-height:100%;
+
+.main-menu li {
+	flex: 1;
+}
+
+.main-menu a {
+	width: 100%;
+	display: block;
+	padding: 20px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: var(--dark);
+	font-size: 20px;
+	line-height: 100%;
 }
 
 /* RESPONSIVE */
 /* TABLETTE */
-@media all and (min-width:760px) {
-	
-}
+@media all and (min-width:760px) {}
+
 /* ORDINATEUR PORTABLE */
 @media all and (min-width:1024px) {
-	.header{
-		position:fixed;
-		top:0;
-		left:0;
-		z-index:1;
-		width:100%;
+
+	/* Generale */
+	body {
+		padding: 66px 0 100px;
 	}
-	.header-conteneur{
-		padding:0;
+
+	/* Header */
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+	}
+
+	.header-conteneur,
+	.main-menu>ul {
+		padding: 0;
 		display: flex;
-		margin:0;
+		margin: 0;
 	}
-	.header span{
+
+	.header span {
 		font-size: 40px;
 	}
-	.header-logo{
-		width:100px;
-		margin:0;
+
+	.header-logo {
+		width: 100px;
+		margin: 0;
+		padding: 0 0 0 10px;
 	}
-	.main-menu{
-		width:calc(100% - 660px);
-		position:static;
+
+	.main-menu {
+		width: calc(100% - 660px);
+		position: static;
 	}
-	.btn-burger,.menu-fond{
-		display:none;
+
+	.btn-burger,
+	.menu-fond {
+		display: none;
 	}
 }
+
 /* ORDINATEUR FIXE */
-@media all and (min-width:1440px) {
-	
-}
+@media all and (min-width:1440px) {}

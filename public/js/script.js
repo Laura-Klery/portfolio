@@ -35,6 +35,7 @@ function burger_html(selecteur,param_insert){
 }
 burger_html('.btn-burger');
 
+
 /* Composant Accordeon */
 const accordionBtns = document.querySelectorAll('.accordion');
 accordionBtns.forEach((accordion) => {
