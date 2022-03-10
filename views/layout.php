@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pinyon+Script&display=swap" rel="stylesheet">
   <base href="http://localhost/portfolio/">
+  <link rel="stylesheet" href="public/css/normalize.css">
   <link rel="stylesheet" href="public/css/variables.css">
   <link rel="stylesheet" href="public/css/style.css">
   <link rel="icon" href="public/images/logo.ico" type="image/x-icon">
