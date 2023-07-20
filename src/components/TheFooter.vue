@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="text-center">
-      <p><span>&copy; 2023 - Laura Klerykowski</span> - Tous droits réservés - <router-link to="/mentions-legales">Mentions Légales</router-link></p>
+      <p><span>&copy; 2023 - Laura Klerykowski - Tous droits réservés -</span> <router-link to="/mentions-legales">Mentions Légales</router-link></p>
     </div>
   </footer>
 </template>

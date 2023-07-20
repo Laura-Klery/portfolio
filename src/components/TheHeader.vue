@@ -20,11 +20,11 @@ const toggleNav = () => {
           <span class="line3"></span>
         </div>
         <ul>
-          <li><a href="#about">Présentation</a></li>
-          <li><a href="#skills">Compétences</a></li>
-          <li><a href="#formations">Expériences</a></li>
-          <li><a href="#projects">Projets</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" @click="toggleNav()">Présentation</a></li>
+          <li><a href="#skills" @click="toggleNav()">Compétences</a></li>
+          <li><a href="#formations" @click="toggleNav()">Expériences</a></li>
+          <li><a href="#projects" @click="toggleNav()">Projets</a></li>
+          <li><a href="#contact" @click="toggleNav()">Contact</a></li>
         </ul>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/laura-klerykowski/" target="_blank" rel="noopener noreferrer">

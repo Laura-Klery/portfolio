@@ -1,7 +1,8 @@
 :root {
-  --backgroundColor: #18062F;
-  --primaryColor: #0AA0BD;
-  --secondaryColor: #FFFFFF;
+  --backgroundColor: rgba(24, 6, 47, 1);
+  --primaryColor: rgba(10, 160, 189, 1);
+  --textColor: rgba(10, 160, 189, 0.8);
+  --secondaryColor: rgba(255, 255, 255, 1);
 }
 
 /* GENERALE */
@@ -21,6 +22,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dancing Script', cursive;
 }
+h1 {
+  display: none;
+}
+h2 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 1.2rem;
+  margin: 0 0 10px 0;
+}
 a {
   text-decoration: none;
   color: var(--secondaryColor);
@@ -35,7 +47,7 @@ img {
 }
 .container {
   max-width: 1800px;
-  padding: 0 10%;
+  padding: 15% 10% 0 10%;
 }
 .text-center {
   text-align: center;
@@ -51,15 +63,14 @@ img {
   flex-direction: column;
   gap: 2rem;
 }
-.h1-section {
-  font-size: 1.3rem;
-}
 
 /* HEADER */
 .main-header {
   background: var(--backgroundColor);
-  padding: 20px;
-  color: #fff;
+  padding: 10px 20px;
+  color: var(--secondaryColor);
+  position: fixed;
+  width: 100%;
 }
 .nav {
   display: flex;
@@ -114,25 +125,30 @@ img {
   margin-left: 20px;
 }
 
-/* FOOTER */
-.main-footer p {
-  padding: 1rem 10%;
-}
-.main-footer .container-rs {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem 0;
-}
-.main-footer .icon-container {
-  width: 26px;
-}
+/* PAGE HOME */
+/* SECTION ABOUT */
+#about {
 
-/* SECTION */
+}
+.about--text {
+  color: var(--textColor);
+}
+.about--text span {
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+.about--image {
 
+}
+/* SECTION SKILL */
 
-/* MENTIONS LEGALES */
+/* SECTION TRAINING */
+
+/* SECTION PROJECT */
+
+/* SECTION CONTACT */
+
+/* PAGE MENTIONS LEGALES */
 .mentions {
   overflow: hidden;
 }
@@ -159,17 +175,28 @@ img {
   color: var(--primaryColor);
 }
 
+/* FOOTER */
+.main-footer p {
+  padding: 1rem 10%;
+}
+.main-footer .container-rs {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.main-footer .icon-container {
+  width: 26px;
+}
+
 /* RESPONSIVE */
 @media all and (min-width: 687px) {
   .main-footer .container-rs {
     display: none;
   }
 }
-
 @media all and (min-width: 768px) {
-  .h1-section {
-    font-size: 2.625rem;
-  }
   .mentions {
     width: 80%;
     margin: 0 10%;
@@ -203,6 +230,9 @@ img {
   }
   .nav ul li {
     margin-top: 20px;
+  }
+  .nav ul li:last-child {
+    padding-bottom: 20px;
   }
   nav.nav-open ul {
     display: flex;
