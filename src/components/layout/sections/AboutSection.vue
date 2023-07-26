@@ -9,7 +9,7 @@
         <p>Si vous avez une opportunité à me proposer, je serai ravie de rejoindre votre entreprise.</p>
       </div>
       <div class="about--image">
-        <img src="@/assets/img/presentation.png" alt="Image représentant une galaxie avec le logo du portfolio en blanc." />
+        <img src="../../../assets/img/presentation.png" alt="Image représentant une galaxie avec le logo du portfolio en blanc." />
       </div>
     </article>
   </section>
