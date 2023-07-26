@@ -27,10 +27,10 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
-  padding-bottom: 10px;
+  padding: 15% 0 2% 0;
 }
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0 0 10px 0;
 }
 a {
@@ -47,7 +47,7 @@ img {
 }
 .container {
   max-width: 1800px;
-  padding: 15% 10% 0 10%;
+  padding: 0 5%;
 }
 .text-center {
   text-align: center;
@@ -127,9 +127,6 @@ img {
 
 /* PAGE HOME */
 /* SECTION ABOUT */
-#about {
-
-}
 .about--text {
   color: var(--textColor);
 }
@@ -137,11 +134,28 @@ img {
   font-weight: bold;
   color: var(--primaryColor);
 }
-.about--image {
-
+.about--image img {
+  border-radius: 20px;
 }
 /* SECTION SKILL */
+.filters {
 
+}
+.filters ul {
+
+}
+.filters ul li {
+
+}
+.card-filter {
+
+}
+.card-filter--image {
+
+}
+.card-filter--title {
+
+}
 /* SECTION TRAINING */
 
 /* SECTION PROJECT */
@@ -197,6 +211,20 @@ img {
   }
 }
 @media all and (min-width: 768px) {
+  #about article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .about--text, .about--image {
+    width: 48%;
+  }
+  .about--text {
+    text-align: justify;
+  }
   .mentions {
     width: 80%;
     margin: 0 10%;
@@ -212,7 +240,6 @@ img {
     margin: 2% 0;
   }
 }
-
 @media all and (max-width: 768px) {
   .menu-icon {
     display: flex;
@@ -221,7 +248,7 @@ img {
     flex-direction: column;
     text-align: center;
     position: absolute;
-    top: 76px;
+    top: 40px;
     left: 0;
     width: 100%;
     background: var(--backgroundColor);

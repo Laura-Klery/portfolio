@@ -7,7 +7,7 @@ const routes = [
   {
     path: '/',
     name: 'Accueil',
-    component: HomeView
+    component: HomeView,
   },
   {
     path: '/mentions-legales',
@@ -18,11 +18,6 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
-})
-
-router.beforeEach(async (to, from, next) => {
-  document.title = `${to.name} - Laura Klerykowski`
-  next()
 })
 
 export default router
